@@ -15,9 +15,9 @@ import PostDetail from './PostDetail';
 
 const Post = () => {
   return (
-    <Card className={classes.post}>
+    <Card className={`mb-5 ${classes.post}`}>
       <HeaderPost />
-      <div className="card-body p-0">
+      <div className="card-body p-0 pb-3">
         <img
           src={PostImg}
           alt="Post"

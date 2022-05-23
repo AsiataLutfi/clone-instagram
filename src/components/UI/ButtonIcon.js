@@ -7,7 +7,9 @@ const ButtonIcon = (props) => {
   return (
     <button
       type="button"
-      className={`btn btn-light ${classes['btn-icon']} ${props.className}`}
+      className={`btn btn-light bg-white border-0 ${classes['btn-icon']} ${
+        props.className ? props.className : ''
+      }`}
     >
       {props.children}
     </button>

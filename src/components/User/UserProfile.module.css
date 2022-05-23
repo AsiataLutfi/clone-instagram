@@ -1,5 +1,7 @@
-.user-profile {
-  width: 100px;
+.user-profile:focus,
+.user-profile:focus:active,
+.user-profile:active {
+  box-shadow: none !important;
 }
 
 .user-profile p {
@@ -7,4 +9,5 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  max-width: 60px;
 }

@@ -26,6 +26,7 @@ const Stories = () => {
           username={user.username}
           isStory={user.story}
           size="52px"
+          className="mx-2"
         />
       ))}
     </Card>

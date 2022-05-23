@@ -1,3 +1,9 @@
+.btn-icon:focus,
+.btn-icon:focus:active,
+.btn-icon:active {
+  box-shadow: none !important;
+}
+
 .btn-icon i {
   font-size: 24px;
 }

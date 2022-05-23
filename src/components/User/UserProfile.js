@@ -17,7 +17,7 @@ const UserProfile = (props) => {
         alt="User"
         width={props.size}
         height={props.size}
-        className={`${props.username ? 'mb-2' : ''} rounded-circle ${
+        className={`${props.username ? 'mb-1' : ''} rounded-circle ${
           props.isStory ? 'border border-primary border-3' : ''
         }`}
       />

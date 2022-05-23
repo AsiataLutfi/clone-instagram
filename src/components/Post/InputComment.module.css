@@ -1,0 +1,10 @@
+.input-comment input:focus,
+.input-comment input:focus:active,
+.input-comment input:active {
+  box-shadow: none !important;
+}
+.input-comment .btn-send:focus,
+.input-comment .btn-send:focus:active,
+.input-comment .btn-send:active {
+  box-shadow: none !important;
+}

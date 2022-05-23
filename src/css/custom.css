@@ -16923,4 +16923,8 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.fs-14 {
+  font-size: 14px !important;
+}
 /*# sourceMappingURL=custom.css.map */

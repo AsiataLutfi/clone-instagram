@@ -3,36 +3,50 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <div className="d-flex flex-wrap my-3">
+      <div className="d-flex flex-wrap my-3 fs-14">
         <a href="/" className="text-secondary text-decoration-none">
-          About
+          fox
         </a>
         <span className="mx-1 text-secondary">•</span>
         <a href="/" className="text-secondary text-decoration-none">
-          About
+          triangle
         </a>
         <span className="mx-1 text-secondary">•</span>
         <a href="/" className="text-secondary text-decoration-none">
-          About
+          copy
         </a>
         <span className="mx-1 text-secondary">•</span>
         <a href="/" className="text-secondary text-decoration-none">
-          About
+          recognize
         </a>
         <span className="mx-1 text-secondary">•</span>
         <a href="/" className="text-secondary text-decoration-none">
-          About
+          add
         </a>
         <span className="mx-1 text-secondary">•</span>
         <a href="/" className="text-secondary text-decoration-none">
-          About
+          repeat
         </a>
         <span className="mx-1 text-secondary">•</span>
         <a href="/" className="text-secondary text-decoration-none">
-          About
+          fourth
+        </a>
+        <span className="mx-1 text-secondary">•</span>
+        <a href="/" className="text-secondary text-decoration-none">
+          gradually
+        </a>
+        <span className="mx-1 text-secondary">•</span>
+        <a href="/" className="text-secondary text-decoration-none">
+          properly
+        </a>
+        <span className="mx-1 text-secondary">•</span>
+        <a href="/" className="text-secondary text-decoration-none">
+          conversation
         </a>
       </div>
-      <p>&copy; 2022 INSTAGRAM FROM META</p>
+      <p className="mb-0 text-secondary fs-14">
+        &copy; 2022 INSTAGRAM FROM META
+      </p>
     </footer>
   );
 };

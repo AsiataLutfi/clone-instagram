@@ -12,12 +12,12 @@ const App = () => {
       <Navbar />
       <main className="container mt-3">
         <div className="row">
-          <div className="col-8">
+          <div className="col col-lg-8 ">
             <Stories />
             <Post />
           </div>
-          <div className="col-4">
-            <SideContent/>
+          <div className="col-4 d-none d-lg-block">
+            <SideContent />
           </div>
         </div>
       </main>
