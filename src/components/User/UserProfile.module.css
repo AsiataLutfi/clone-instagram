@@ -1,0 +1,10 @@
+.user-profile {
+  width: 100px;
+}
+
+.user-profile p {
+  font-size: 0.8rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
