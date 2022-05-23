@@ -2,6 +2,7 @@ import React from 'react';
 
 // Components
 import Navbar from './components/Layouts/Navbar';
+import SideContent from './components/Layouts/SideContent';
 import Post from './components/Post/Post';
 import Stories from './components/Story/Stories';
 
@@ -15,7 +16,9 @@ const App = () => {
             <Stories />
             <Post />
           </div>
-          <div className="col-4"></div>
+          <div className="col-4">
+            <SideContent/>
+          </div>
         </div>
       </main>
     </React.Fragment>

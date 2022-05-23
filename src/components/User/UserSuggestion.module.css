@@ -1,0 +1,6 @@
+.user-suggestion .user-details {
+  max-width: 235px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

@@ -6,7 +6,9 @@ import classes from './UserProfile.module.css';
 const UserProfile = (props) => {
   return (
     <a
-      className={`btn btn-light py-0 ${classes['user-profile']} ${props.className}`}
+      className={`btn btn-light p-0 ${classes['user-profile']} ${
+        props.className ? props.className : ''
+      }`}
       href="/"
       role="button"
     >
@@ -16,7 +18,7 @@ const UserProfile = (props) => {
         width={props.size}
         height={props.size}
         className={`${props.username ? 'mb-2' : ''} rounded-circle ${
-          props.isStory ? 'border border-primary border-3' : 'opacity-50'
+          props.isStory ? 'border border-primary border-3' : ''
         }`}
       />
       {props.username ? <p className="mb-0">{props.username}</p> : ''}
