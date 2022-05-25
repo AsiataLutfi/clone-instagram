@@ -6,7 +6,7 @@ import classes from './UserProfile.module.css';
 const UserProfile = (props) => {
   return (
     <a
-      className={`btn btn-light p-0 ${classes['user-profile']} ${
+      className={`btn btn-light bg-white p-0 ${classes['user-profile']} ${
         props.className ? props.className : ''
       }`}
       href="/"
